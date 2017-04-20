@@ -76,7 +76,7 @@ There have also been two changes to eliminate name conflicts between purrr and d
   3 argument function where the first argument is the accumulated value, the
   second argument is `.x`, and the third argument is `.y` (#163).
 
-* `list_modify()` extends `stats::modifyList()` to replace by position
+* `list_modify()` extends `utils::modifyList()` to replace by position
   if the list is not named. `list_update()` uses `list_modify()` (#201).
   `update_list()` has been renamed to `list_update()`.
 
